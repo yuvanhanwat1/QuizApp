@@ -1,0 +1,77 @@
+.container{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.questionBox{
+    background-color: rgb(167, 90, 167);
+    margin:20px;
+    display:inline-table;
+    width: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.question{
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+.startBtn{
+    font-weight: bold;
+    font-size: large;
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(251, 145, 107);
+    border: 1px solid rgb(203, 62, 62);
+}
+.startBtn:hover{
+    background-color: rgb(243, 187, 109);
+}
+.answerBtn{
+    margin:10px;
+    padding:10px; 
+    margin-left: 10px;
+    background-color:rgb(238, 164, 84);
+    border:none;
+    font-weight: bold;
+}
+.answerBtn:hover{
+    background-color:rgb(248, 156, 75);
+}
+.resultBtn{
+    font-weight: bold;
+    font-size: medium;
+    padding: 12px;
+    margin: 40px;
+    color: white;
+    background-color: rgb(40, 107, 136);
+    border: none;
+}
+.resultBtn:hover{
+    background-color: rgb(54, 151, 168);
+}
+.score{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(244, 99, 46);
+}
+.score:hover {
+    background-color: rgb(243, 137, 99);
+}
+.restartBtn{
+    font-weight: bold;
+    font-size: large;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(251, 145, 107);
+    border: 1px solid rgb(203, 62, 62);
+}
+.restartBtn:hover{
+    background-color: rgb(243, 187, 109);
+}
